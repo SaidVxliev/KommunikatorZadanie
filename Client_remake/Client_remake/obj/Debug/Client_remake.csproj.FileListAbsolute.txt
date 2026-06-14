@@ -1,0 +1,10 @@
+C:\Users\Said\source\repos\Client_remake\Client_remake\bin\Debug\Client_remake.exe.config
+C:\Users\Said\source\repos\Client_remake\Client_remake\bin\Debug\Client_remake.exe
+C:\Users\Said\source\repos\Client_remake\Client_remake\bin\Debug\Client_remake.pdb
+C:\Users\Said\source\repos\Client_remake\Client_remake\obj\Debug\Client_remake.csproj.AssemblyReference.cache
+C:\Users\Said\source\repos\Client_remake\Client_remake\obj\Debug\Client_remake.Form1.resources
+C:\Users\Said\source\repos\Client_remake\Client_remake\obj\Debug\Client_remake.Properties.Resources.resources
+C:\Users\Said\source\repos\Client_remake\Client_remake\obj\Debug\Client_remake.csproj.GenerateResource.cache
+C:\Users\Said\source\repos\Client_remake\Client_remake\obj\Debug\Client_remake.csproj.CoreCompileInputs.cache
+C:\Users\Said\source\repos\Client_remake\Client_remake\obj\Debug\Client_remake.exe
+C:\Users\Said\source\repos\Client_remake\Client_remake\obj\Debug\Client_remake.pdb
