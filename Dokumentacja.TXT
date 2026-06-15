@@ -1,0 +1,49 @@
+Instrukcja Obsługi Serwera
+Serwer musi zostać uruchomiony jako pierwszy, aby klienci mogli podjąć próbę połączenia.
+
+Krok 1: Konfiguracja połączenia i zabezpieczeń
+W polu tekstowym adresu hosta wprowadź adres IP, na którym serwer ma nasłuchiwać.
+
+W kontrolce numerycznej portu wybierz port.
+
+W polu Password wpisz hasło dostępowe dla klientów. Jeśli pole pozostanie z wartością (Optional), serwer nie będzie wymagał hasła (klienci powinni wtedy pozostawić puste pole hasła).
+
+Krok 2: Uruchomienie serwera
+Kliknij przycisk Start.
+
+W oknie logów pojawi się komunikat: "Serwer został uruchomiony.". Przycisk startu zostanie zablokowany, a przycisk zatrzymania aktywowany.
+
+Krok 3: Zarządzanie i komunikacja
+Lista użytkowników: Po prawej stronie w oknie listy na bieżąco wyświetlani są zalogowani użytkownicy. W przypadku wykrycia takiego samego nickname'u u nowego klienta, serwer automatycznie dopisze przyrostek -sobowtór.
+
+Wysyłanie wiadomości systemowych: Serwer może wysyłać wiadomości ogólne do wszystkich. Wpisz tekst w dolnym polu tekstowym (domyślnie zawierającym podpowiedź Send message...) i kliknij Send. Wiadomość zostanie wysłana z podpisem SERWER: [Treść].
+
+Zatrzymanie serwera: Kliknięcie przycisku Stop wyśle do wszystkich klientów powiadomienie o zamknięciu sieci, bezpiecznie rozłączy każdego użytkownika, wyczyszcza listy i zamknie nasłuch gniazda TCP.
+
+Instrukcja Obsługi Klienta
+Krok 1: Dane uwierzytelniające i adresowe
+W polu adresu wpisz IP serwera, z którym chcesz się połączyć.
+
+W kontrolce portu ustaw dokładnie ten sam numer portu, który został skonfigurowany na serwerze.
+
+W polu nickname wpisz swoją nazwę użytkownika. Uwaga: Pole to nie może być puste.
+
+W polu hasła wpisz hasło ustawione na serwerze. Jeśli serwer nie ma hasła, pozostaw pole puste.
+
+Krok 2: Nawiązanie połączenia
+Kliknij przycisk Connect.
+
+Aplikacja prześle najpierw Twój nickname, a następnie hasło.
+
+Możliwe scenariusze:
+
+Sukces: W oknie głównym pojawi się tekst "Nawiązano połączenie z... na porcie...", a przycisk wysyłania zostanie odblokowany.
+
+Błędne hasło: W oknie pojawi się komunikat "Incorrect password! Access denied!", a klient zostanie automatycznie rozłączony.
+
+Błąd sieciowy: Jeśli serwer nie działa, wyskoczy okienko z błędem systemowym.
+
+Krok 3: Czatowanie i rozłączenie
+Wysyłanie wiadomości: Wpisz tekst w dolnym polu tekstowym i kliknij Send. Wiadomość zniknie z pola wprowadzania i po przetworzeniu przez serwer pojawi się w oknie rozmowy.
+
+Rozłączenie z czatu: Kliknięcie przycisku Stop wysyła do serwera ukrytą komendę END, co pozwala na natychmiastowe usunięcie konta klienta z listy aktywnych użytkowników na serwerze i bezpieczne zamknięcie strumieni.
